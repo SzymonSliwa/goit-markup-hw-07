@@ -1,0 +1,26 @@
+.features-section-item__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--tertiary-color, #757575);
+  text-align: left;
+  text-transform: none;
+}
+
+.features-section-item__icon-background {
+  background: var(--background-color, #f5f4fa);
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  display: flex;
+}
+
+.features-section-item__icon-strenghts {
+  display: block;
+  margin: auto;
+}
+
+.features-section-item {
+  width: 270px;
+}
