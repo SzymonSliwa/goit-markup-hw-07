@@ -6,12 +6,6 @@
   margin-bottom: 20px;
 }
 
-.footers-second-column__icon-social {
-  fill: $secendary-grey;
-  display: block;
-  margin: auto;
-}
-
 .footers-second-column__icons-social {
   display: flex;
   justify-content: space-around;
@@ -26,10 +20,12 @@
   border-radius: 50%;
   display: flex;
   background-color: rgba(255, 255, 255, 0.1);
-}
 
-.footers-second-column__icon-background .footers-second-column__icon-social {
-  fill: var(--logo-white, #ffffff);
+  .footers-second-column__icon-social {
+    display: block;
+    margin: auto;
+    fill: var(--logo-white, #ffffff);
+  }
 }
 
 .footers-second-column__icon-background:hover,

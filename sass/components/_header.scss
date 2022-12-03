@@ -59,6 +59,7 @@
 .header-address__icon:hover + .header-address__contacts-data,
 .header-address__icon:focus + .header-address__contacts-data {
   color: var(--secendary-color, #2196f3);
+  fill: var(--secendary-color, #2196f3);
 }
 
 .header-address__item {
