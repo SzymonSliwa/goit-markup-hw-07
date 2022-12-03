@@ -78,6 +78,18 @@
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--tertiary-color, #757575);
+
+  &::before {
+    content: "";
+    border-radius: 2px;
+    border: 2px solid var(--main-color, #212121);
+    width: 16px;
+    height: 15px;
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+    bottom: 122px;
+  }
 }
 
 .input-list-item__form-input {
@@ -175,18 +187,6 @@
 .acceptance-wrapper {
   padding-top: 10px;
   margin-bottom: 25px;
-}
-
-.acceptance1::before {
-  content: "";
-  border-radius: 2px;
-  border: 2px solid var(--main-color, #212121);
-  width: 16px;
-  height: 15px;
-  display: inline-block;
-  position: absolute;
-  left: 50px;
-  bottom: 122px;
 }
 
 .policy:checked + .acceptance1::before {
